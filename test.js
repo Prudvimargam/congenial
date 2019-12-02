@@ -54,5 +54,6 @@ it('5. returns undefined if array is not passed', () => {
 })
 
 it('5. returns undefined if array does not contain numbers', () => {
-    assert.equal(p5.smallest_array(['a', 'b']), undefined);
+
+    assert.equal(P5.smallest_array(['a', 'b']), undefined);
 })
