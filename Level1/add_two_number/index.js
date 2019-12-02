@@ -2,7 +2,8 @@
 
 const add = (a , b) => {
     // your code here
-    return null;
+    let r = a + b;
+    return r;
 }
 
 module.exports = { addTwoNum: add };

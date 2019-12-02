@@ -31,9 +31,7 @@ it('3. returns undefined if not a string', () => {
 const P4 = require('./Level1/object_prop_addition');
 it('4. Adds all numerical properties of a given object', () => {
     let obj = {a: 3, b: 5, c: 5, d: '1'};
-    assert
-        .equal(P4.object_prop_addition(obj), 13)
-        .equal(Number.isFinite(P4.object_prop_addition(obj)), true);
+    assert.equal(P4.object_prop_addition(obj), 13);
 })
 
 it('4: returns undefined in other cases', () => {
