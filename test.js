@@ -25,3 +25,10 @@ it('2. returns undefined if not array', () => {
 })
 
 /* --------------------------------------------------------------- */
+
+
+const P3 = require('./Level2/rest_operator');
+
+it('3. returns obj with rest of the properties', () => {
+    assert.equal()
+});
